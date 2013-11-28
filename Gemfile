@@ -4,6 +4,8 @@ gem 'rails', '4.0.1'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
+gem 'devise'
+gem 'simple_form'
 
 group :development do
 	gem 'sqlite3'
