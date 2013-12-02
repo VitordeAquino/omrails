@@ -5,6 +5,8 @@ Omrails::Application.routes.draw do
   root :to => "pins#index"
   get 'about' => 'pages#about'
   get 'home' => 'pages#home'
+  get 'carousel'=> 'pages#carousel'
+  get 'index' => 'welcome#index'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
