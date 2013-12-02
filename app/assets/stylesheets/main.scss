@@ -1,25 +1,57 @@
+$navbar-default-border: white;
+
+.btn-large{
+	background-color: green;
+}
+
+.navbar-collapse{
+	background-color: white;
+	border: none;
+}
+
+
+
+
 @import "../../../vendor/assets/stylesheets/bootstrap/bootstrap.scss";
 
-body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
+body{
+	padding-top: 60px;
 }
 
-
-
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
+.footer{
+	margin-top: 50px;
+	a {
+		color: $gray;
+	}
 }
 
+.description{
+	margin: 10px 0 5px;
+}
 
+/* Required for JQuery Masonry */
+
+.box{
+	margin: 5px;
+	padding: 5px;
+	font-size: 11px;
+	line-height: 1.4em;
+	float: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px #444;
+	width: 214px;
+}
+
+.box img{
+	display: block;
+	width: 100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px
+	
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
